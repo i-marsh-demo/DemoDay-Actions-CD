@@ -72,6 +72,7 @@ jobs:
           VALIDATE_CSS: false
           VALIDATE_MARKDOWN: false
           JAVASCRIPT_DEFAULT_STYLE: prettier
+          VALIDATE_JSCPD: false
 
   prettier:
     name: 🧹 prettier
