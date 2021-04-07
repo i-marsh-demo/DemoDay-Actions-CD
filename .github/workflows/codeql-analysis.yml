@@ -16,9 +16,7 @@ on:
     branches: [ do-not-run ]
   pull_request:
     # The branches below must be a subset of the branches above
-    branches: [ do-not-run ]
-  schedule:
-    - cron: '16 19 * * 5'
+    branches: [ main ]
 
 jobs:
   analyze:
@@ -43,7 +41,6 @@ jobs:
       with:
         languages: ${{ matrix.language }}
         queries: security-extended
-        
         # If you wish to specify custom queries, you can do so here or in a config file.
         # By default, queries listed here will override any specified in a config file.
         # Prefix the list here with "+" to use these queries and those in the config file.
