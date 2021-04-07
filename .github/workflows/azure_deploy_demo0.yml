@@ -17,8 +17,8 @@
 on: 
   pull_request:
     branches:
-      - main
-      # - Do-Not-Run
+      # - main
+      - Do-Not-Run
 
 env:
   AZURE_WEBAPP_NAME: hubberlookup  # set this to your application's name
@@ -44,8 +44,8 @@ jobs:
         npm run build --if-present
         npm run test --if-present
 
-  webapp-deploy-staging:
-    name: Webapp Deploy - Staging
+  webapp-deploy-sandbox:
+    name: Webapp Deploy - Sandbox
     runs-on: ubuntu-latest
     needs: [build-and-test]
     
@@ -63,21 +63,21 @@ jobs:
       with:
         app-name: ${{ env.AZURE_WEBAPP_NAME }}
         ## Specific Secret for this App Service Deployment Environment
-        publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE_STAGING }}
+        publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE_SANDBOX }}
         package: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
-        slot-name: staging
+        slot-name: sandbox
   
-  validate-site-staging:
+  validate-site-sandbox:
     name: Validate Deployment
     runs-on: ubuntu-latest
-    needs: webapp-deploy-staging
+    needs: webapp-deploy-sandbox
 
     steps:
     - name: Check the deployed service URL
       uses: jtalk/url-health-check-action@v1.2
       with:
         # Check the following URLs one by one sequentially
-        url: https://${{ env.AZURE_WEBAPP_NAME }}-staging.azurewebsites.net/|https://${{ env.AZURE_WEBAPP_NAME }}-staging.azurewebsites.net/user/james-leha
+        url: https://${{ env.AZURE_WEBAPP_NAME }}-sandbox.azurewebsites.net/|https://${{ env.AZURE_WEBAPP_NAME }}-sandbox.azurewebsites.net/user/i-marsh
         # Follow redirects, or just report success on 3xx status codes
         follow-redirect: no # Optional, defaults to "no"
         # Fail this action after this many failed attempts
