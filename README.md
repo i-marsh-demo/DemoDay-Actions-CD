@@ -1,8 +1,8 @@
 [![CodeQL](https://github.com/i-marsh-demo/DemoDay-Actions-CD/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/i-marsh-demo/DemoDay-Actions-CD/actions/workflows/codeql-analysis.yml)  
-[![.github/workflows/azure_deploy_demo0.yml](https://github.com/i-marsh-demo/DemoDay-Actions-CD/actions/workflows/azure_deploy_demo0.yml/badge.svg)](https://github.com/i-marsh-demo/DemoDay-Actions-CD/actions/workflows/azure_deploy_demo0.yml)   
-[![.github/workflows/azure_deploy_demo1.yml](https://github.com/i-marsh-demo/DemoDay-Actions-CD/actions/workflows/azure_deploy_demo1.yml/badge.svg)](https://github.com/i-marsh-demo/DemoDay-Actions-CD/actions/workflows/azure_deploy_demo1.yml)   
-[![.github/workflows/azure_deploy_demo2.yml](https://github.com/i-marsh-demo/DemoDay-Actions-CD/actions/workflows/azure_deploy_demo2.yml/badge.svg)](https://github.com/i-marsh-demo/DemoDay-Actions-CD/actions/workflows/azure_deploy_demo2.yml)   
-[![.github/workflows/azure_deploy_demo3.yml](https://github.com/i-marsh-demo/DemoDay-Actions-CD/actions/workflows/azure_deploy_demo3.yml/badge.svg)](https://github.com/i-marsh-demo/DemoDay-Actions-CD/actions/workflows/azure_deploy_demo3.yml)  
+[![.github/workflows/azure_deploy_demo0.yml](https://github.com/i-marsh-demo/DemoDay-Actions-CD/actions/workflows/azure_deploy_demo0.yml/badge.svg)](https://github.com/i-marsh-demo/DemoDay-Actions-CD/actions/workflows/azure_deploy_demo0.yml)  
+[![.github/workflows/azure_deploy_demo1.yml](https://github.com/i-marsh-demo/DemoDay-Actions-CD/actions/workflows/azure_deploy_demo1.yml/badge.svg)](https://github.com/i-marsh-demo/DemoDay-Actions-CD/actions/workflows/azure_deploy_demo1.yml)  
+[![.github/workflows/azure_deploy_demo2.yml](https://github.com/i-marsh-demo/DemoDay-Actions-CD/actions/workflows/azure_deploy_demo2.yml/badge.svg)](https://github.com/i-marsh-demo/DemoDay-Actions-CD/actions/workflows/azure_deploy_demo2.yml)  
+[![.github/workflows/azure_deploy_demo3.yml](https://github.com/i-marsh-demo/DemoDay-Actions-CD/actions/workflows/azure_deploy_demo3.yml/badge.svg)](https://github.com/i-marsh-demo/DemoDay-Actions-CD/actions/workflows/azure_deploy_demo3.yml)
 
 # Intro
 
