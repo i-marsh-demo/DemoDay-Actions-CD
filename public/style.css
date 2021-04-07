@@ -166,12 +166,13 @@ a {
 }
 
 .WelcomeView {
-    background: url("blank-canvas.jpg") left bottom;
+    background: url("nature-rock.jpg") left bottom;
     background-size: cover;
   }
 
 .UserView {
-    background: url("tabby-cat.jpg") left bottom;
+    /* background: url("tabby-cat.jpg") left bottom; */
+    background: url("keyboard.jpg") left bottom;
     background-size: cover;
   }
 
