@@ -18,8 +18,8 @@
 on:
   pull_request:
     branches:
-      - main
-      # - Do-Not-Run
+      # - main
+      - Do-Not-Run
 
 env:
 
